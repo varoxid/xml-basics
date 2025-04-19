@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="currencyType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="RUB|USD|EUR|GBP|JPY"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="locationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="на складе"/>
+      <xs:enumeration value="в магазине"/>
+      <xs:enumeration value="под заказ"/>
+      <xs:enumeration value="нет в наличии"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="categoryType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CPU"/>
+      <xs:enumeration value="GPU"/>
+      <xs:enumeration value="Motherboard"/>
+      <xs:enumeration value="RAM"/>
+      <xs:enumeration value="Storage"/>
+      <xs:enumeration value="PSU"/>
+      <xs:enumeration value="Cooling"/>
+      <xs:enumeration value="Case"/>
+      <xs:enumeration value="Other"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="computerComponents">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="component" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string"/>
+              <xs:element name="price" >
+                <xs:simpleType>
+                  <xs:restriction base="xs:decimal">
+                    <xs:minInclusive value="0.01"/>
+                    <xs:fractionDigits value="2"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="currency" type="currencyType"/>
+              <xs:element name="quantity" type="xs:nonNegativeInteger"/>
+              <xs:element name="location" type="locationType"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string"/>
+            <xs:attribute name="category" type="categoryType"/>
+            <xs:attribute name="warranty" type="xs:positiveInteger"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

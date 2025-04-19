@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<computerComponents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:noNamespaceSchemaLocation="shop.xsd">
+    <component id="cpu001" category="CPU" warranty="36">
+        <name>Процессор Intel Core i7-13700K</name>
+        <price>35000.00</price>
+        <currency>RUB</currency>
+        <quantity>15</quantity>
+        <location>на складе</location>
+    </component>
+    <component id="gpu001" category="GPU" warranty="24">
+        <name>Видеокарта NVIDIA GeForce RTX 4080</name>
+        <price>95000.00</price>
+        <currency>RUB</currency>
+        <quantity>8</quantity>
+        <location>в магазине</location>
+    </component>
+    <component id="mb001" category="Motherboard" warranty="12">
+        <name>Материнская плата ASUS ROG Strix Z790-E</name>
+        <price>28000.00</price>
+        <currency>RUB</currency>
+        <quantity>12</quantity>
+        <location>на складе</location>
+    </component>
+    <component id="ram001" category="RAM" warranty="60">
+        <name>Оперативная память Kingston Fury 32GB DDR5</name>
+        <price>12000.00</price>
+        <currency>RUB</currency>
+        <quantity>25</quantity>
+        <location>в магазине</location>
+    </component>
+    <component id="ssd001" category="Storage" warranty="60">
+        <name>SSD Samsung 980 Pro 1TB</name>
+        <price>9000.00</price>
+        <currency>RUB</currency>
+        <quantity>30</quantity>
+        <location>на складе</location>
+    </component>
+    <component id="psu001" category="PSU" warranty="120">
+        <name>Блок питания Corsair RM850x</name>
+        <price>11000.00</price>
+        <currency>RUB</currency>
+        <quantity>10</quantity>
+        <location>в магазине</location>
+    </component>
+</computerComponents>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "books.dtd" [
+        <!ENTITY linux "Linux">
+        <!ENTITY internet "Internet">
+        ]>
+<library>
+    <book_catalog>
+        <book id="b001" isbn="978-5-8459-1445-4" year="2018" issue="original">
+            <authors>
+                <author>Брайан Керниган</author>
+                <author>Деннис Ритчи</author>
+            </authors>
+            <title>Язык программирования C</title>
+            <publishing>Вильямс</publishing>
+            <annotation>Классическое руководство по языку C</annotation>
+        </book>
+
+        <book id="b002" year="2020" issue="translation">
+            <title>Изучаем &linux;</title>
+            <publishing>Питер</publishing>
+        </book>
+
+        <book id="b003" isbn="978-5-4461-1155-6" year="2021" issue="original">
+            <authors>
+                <author>Эрик Мэтиз</author>
+            </authors>
+            <title>Изучаем Python</title>
+            <publishing>Эксмо</publishing>
+            <annotation>Программирование на Python для начинающих</annotation>
+        </book>
+    </book_catalog>
+
+    <author_catalog>
+        <author_book idref="b001">Брайан Керниган</author_book>
+        <author_book idref="b001">Деннис Ритчи</author_book>
+        <author_book idref="b003">Эрик Мэтиз</author_book>
+    </author_catalog>
+</library>

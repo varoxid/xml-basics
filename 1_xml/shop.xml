@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<computerComponents>
+    <component>
+        <name>Процессор Intel Core i7-13700K</name>
+        <price>35000</price>
+        <currency>RUB</currency>
+        <quantity>15</quantity>
+        <location>на складе</location>
+    </component>
+    <component>
+        <name>Видеокарта NVIDIA GeForce RTX 4080</name>
+        <price>95000</price>
+        <currency>RUB</currency>
+        <quantity>8</quantity>
+        <location>в магазине</location>
+    </component>
+    <component>
+        <name>Материнская плата ASUS ROG Strix Z790-E</name>
+        <price>28000</price>
+        <currency>RUB</currency>
+        <quantity>12</quantity>
+        <location>на складе</location>
+    </component>
+    <component>
+        <name>Оперативная память Kingston Fury 32GB DDR5</name>
+        <price>12000</price>
+        <currency>RUB</currency>
+        <quantity>25</quantity>
+        <location>в магазине</location>
+    </component>
+    <component>
+        <name>SSD Samsung 980 Pro 1TB</name>
+        <price>9000</price>
+        <currency>RUB</currency>
+        <quantity>30</quantity>
+        <location>на складе</location>
+    </component>
+    <component>
+        <name>Блок питания Corsair RM850x</name>
+        <price>11000</price>
+        <currency>RUB</currency>
+        <quantity>10</quantity>
+        <location>в магазине</location>
+    </component>
+</computerComponents>

@@ -1,0 +1,9 @@
+<!ELEMENT lessons (lesson+)>
+<!ELEMENT lesson (name, teacher, datePeriod, hours, type)>
+<!ATTLIST lesson id CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT teacher (#PCDATA)>
+<!ELEMENT datePeriod (#PCDATA)>
+<!ELEMENT hours (#PCDATA)>
+<!ELEMENT type (#PCDATA)>

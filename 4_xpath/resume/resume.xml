@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resumes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="resume.xsd">
+    <candidate id="1">
+        <firstName>Иван</firstName>
+        <lastName>Иванов</lastName>
+        <middleName>Иванович</middleName>
+        <currentWorkplace>ООО "Компания"</currentWorkplace>
+        <currentPosition>Старший разработчик</currentPosition>
+        <birthDate>1990-01-01</birthDate>
+        <age>35</age>
+        <education>высшее</education>
+        <address>г. Москва, ул. Ленина, д. 1, кв. 2</address>
+        <phone>+7 (999) 999-99-99</phone>
+        <maritalStatus>женат</maritalStatus>
+        <desiredSalary>190000</desiredSalary>
+    </candidate>
+    <candidate id="2">
+        <firstName>Мария</firstName>
+        <lastName>Иванова</lastName>
+        <middleName>Сергеевна</middleName>
+        <currentWorkplace>АО "Финансовые решения"</currentWorkplace>
+        <currentPosition>Менеджер</currentPosition>
+        <birthDate>1991-12-31</birthDate>
+        <age>30</age>
+        <education>высшее</education>
+        <address>г. Санкт-Петербург, ул. Пушкина, д. 1, кв. 2</address>
+        <phone>+7 (944) 444-44-44</phone>
+        <maritalStatus>не замужем</maritalStatus>
+        <desiredSalary>100000</desiredSalary>
+    </candidate>
+</resumes>

@@ -1,0 +1,11 @@
+<!ELEMENT computerComponents (component+)>
+<!ELEMENT component (name, price, currency, quantity, location)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT currency (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+
+<!ATTLIST component
+        id ID #IMPLIED
+        category CDATA #IMPLIED>
