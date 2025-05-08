@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="lessons_to_xhtml.xsl" type="text/xsl"?>
+<?xml-stylesheet type="text/xsl" href="less_template_2.xsl"?>
 <lessons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="lessons_XML.xsd">
     <lesson id="1">
